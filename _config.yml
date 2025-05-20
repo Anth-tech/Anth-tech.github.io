@@ -1,6 +1,0 @@
-title: My CS Journey
-description: This page is to blog and log my progress in Computer Science topics and various projects I take on
-
-remote_theme: pages-themes/midnight@v0.2.0
-plugins:
-- jekyll-remote-theme
