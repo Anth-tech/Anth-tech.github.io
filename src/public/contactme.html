@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contactme.css">
+    <title>Contact Me</title>
+</head>
+<body>
+    <a href="https://github.com/Anth-tech" target="_blank" rel="noopener noreferrer">Github</a>
+    <a href="https://www.linkedin.com/in/anthony-chapman-36983131a/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+    <a href="../index.html">Home</a>
+
+    <div class="fs-form-box">
+        <form
+            action="https://formspree.io/f/mdkgqqrn"
+            class="fs-form"
+            target="_top"
+            method="POST"
+        >
+            <div class="fs-field">
+                <label class="fs-label" for="name">Your Name (optional)</label>
+                <input class="fs-input" id="name" name="name"/>
+            </div>
+            <div class="fs-field">
+                <label class="fs-label" for="email">Email</label>
+                <input class="fs-input" id="email" name="email" required />
+                <p class="fs-description">
+                    This will help me respond to your query via an email
+                </p>
+            </div>
+            <div class="fs-field">
+                <label class="fs-label" for="message">Message</label>
+                <textarea
+                    class="fs-textarea"
+                    id="message"
+                    name="message"
+                    required
+                ></textarea>
+                <p class="fs-description">What would you like to discuss?</p>
+            </div>
+            <div class="fs-button-group">
+                <button class="fs-button" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
